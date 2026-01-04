@@ -38,7 +38,7 @@ function Projects() {
             title: "Secure Passwords",
             description:
                 "This website was developed to securely store users’ passwords, enabling them to manage and access all their credentials safely in one centralized place.",
-            link: "https://tushargame.netlify.app/",
+            link: "https://lockpasswords.netlify.app/",
             tech: "HTML, CSS, Javascript, SpringBoot, MySQL",
         },
 
