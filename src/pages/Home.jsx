@@ -1,5 +1,19 @@
 import Navbar from "../components/Navbar"
 import MyImage from "../assets/myimage.jpg"
+
+import css from "../assets/css.png"
+import github from "../assets/github.png"
+import html2 from "../assets/html2.png"
+import java from "../assets/java.png"
+import js from "../assets/js.png"
+import react2 from "../assets/react2.png"
+import sp from "../assets/springboot.png"
+import sql from "../assets/sql.png"
+import tailwind from "../assets/tailwind.png"
+
+
+
+
 import { useNavigate } from "react-router-dom";
 
 import Footer from "../components/Footer"
@@ -65,7 +79,7 @@ function Home() {
     {/* TECH ITEM */}
     <div className=" p-4 flex items-center justify-center hover:border-orange-500 hover:-translate-y-1 transition">
       <img
-        src="src/assets/springboot.png"
+        src={sp}
         alt="Spring Boot"
         className="h-12 sm:h-14 object-contain"
       />
@@ -73,7 +87,7 @@ function Home() {
 
     <div className=" p-4 flex items-center justify-center hover:border-orange-500 hover:-translate-y-1 transition">
       <img
-        src="src/assets/react2.png"
+        src={react2}
         alt="React"
         className="h-12 sm:h-14 object-contain"
       />
@@ -81,7 +95,7 @@ function Home() {
 
     <div className=" p-4 flex items-center justify-center hover:border-orange-500 hover:-translate-y-1 transition">
       <img
-        src="src/assets/html2.png"
+        src={html2}
         alt="HTML"
         className="h-12 sm:h-14 object-contain"
       />
@@ -89,7 +103,7 @@ function Home() {
 
     <div className=" p-4 flex items-center justify-center hover:border-orange-500 hover:-translate-y-1 transition">
       <img
-        src="src/assets/css.png"
+        src={css}
         alt="CSS"
         className="h-12 sm:h-14 object-contain"
       />
@@ -97,7 +111,7 @@ function Home() {
 
     <div className=" p-4 flex items-center justify-center hover:border-orange-500 hover:-translate-y-1 transition">
       <img
-        src="src/assets/github.png"
+        src={js}
         alt="JavaScript"
         className="h-12 sm:h-14 object-contain"
       />
@@ -105,7 +119,7 @@ function Home() {
 
     <div className=" p-4 flex items-center justify-center hover:border-orange-500 hover:-translate-y-1 transition">
       <img
-        src="src/assets/js.png"
+        src={sql}
         alt="MySQL"
         className="h-12 sm:h-14 object-contain"
       />
@@ -113,7 +127,7 @@ function Home() {
 
     <div className=" p-4 flex items-center justify-center hover:border-orange-500 hover:-translate-y-1 transition">
       <img
-        src="src/assets/tailwind.png"
+        src={github}
         alt="MySQL"
         className="h-12 sm:h-14 object-contain"
       />
@@ -121,7 +135,7 @@ function Home() {
 
      <div className=" p-4 flex items-center justify-center hover:border-orange-500 hover:-translate-y-1 transition">
       <img
-        src="src/assets/java.png"
+        src={java}
         alt="MySQL"
         className="h-12 sm:h-14 object-contain"
       />
@@ -129,7 +143,7 @@ function Home() {
 
      <div className=" p-4 flex items-center justify-center hover:border-orange-500 hover:-translate-y-1 transition">
       <img
-        src="src/assets/sql.png"
+        src={tailwind}
         alt="MySQL"
         className="h-12 sm:h-14 object-contain"
       />
