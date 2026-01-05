@@ -11,7 +11,7 @@ function About() {
 
   {/* Heading */}
   <div className="max-w-6xl mx-auto text-center mb-14">
-    <h1 className="text-3xl text-orange-500 sm:text-4xl font-bold text-white mb-4">
+    <h1 className="text-3xl  sm:text-4xl font-bold text-white mb-4">
       About Me
     </h1>
     <p className="text-gray-400 text-sm sm:text-base">
